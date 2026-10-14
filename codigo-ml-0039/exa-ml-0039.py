@@ -2,6 +2,7 @@ import sys
 import os
 import pandas as pd
 
+print("Caleb Dorado Machine Learning pandas, NC = 0039")
 # Permitir importar dicc-0777.py desde la subcarpeta hermana
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'datos-de-entrada-ml-0039')))
 import dicc_0039
@@ -10,7 +11,7 @@ print("Caleb Dorado Machine Learning pandas, NC = 0039")
 
 # Variable para almacenar las salidas y guardarlas en el archivo .md
 contenido_md = []
-encabezado_pie = "Eliseo Nava Machine Learning pandas, NC 0777"
+encabezado_pie = "Caleb Dorado Machine Learning pandas, NC = 0039"
 contenido_md.append(f"# Reporte de Análisis de Datos - Pandas\n\n`{encabezado_pie}`\n")
 
 def registrar(titulo, contenido):
